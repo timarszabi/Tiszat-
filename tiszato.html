@@ -103,7 +103,7 @@
   
   <h2 class="display-5" id="turizmus">A Tisza-tó turisztikai vonzereje</h2>
   <div class="row">    
-    <div class="col-lg-6">
+    <div class="col-lg-3">
       <table class="table table-hover">
         <thead>
           <tr>
@@ -112,30 +112,33 @@
         </thead>
         <tbody class="kozep keplink">
           <tr>
-            <td onclick="turizmus('okocentrum');">Tisza-tavi Ökocentrum</td>
+            <td onclick="turizmus('okocentrum');" onmouseleave="keprejt();">Tisza-tavi Ökocentrum</td>
           </tr>
           <tr>
-            <td onclick="turizmus('skanzen');">Miniskanzen</td>
+            <td onclick="turizmus('skanzen');" onmouseleave="keprejt();">Miniskanzen</td>
           </tr>
           <tr>
-            <td onclick="turizmus('madarrezervatum');">Madárrezervátum</td>
+            <td onclick="turizmus('madarrezervatum');" onmouseleave="keprejt();">Madárrezervátum</td>
           </tr>
           <tr>
-            <td onclick="turizmus('termalfurdo');">Termálfürdő</td>
+            <td onclick="turizmus('termalfurdo');" onmouseleave="keprejt();">Termálfürdő</td>
           </tr>
           <tr>
-            <td onclick="turizmus('lovastanya');">Lovas-tanya</td>
+            <td onclick="turizmus('lovastanya');" onmouseleave="keprejt();">Lovas-tanya</td>
           </tr>
           <tr>
-            <td onclick="turizmus('strand');">Szabad-strand</td>
+            <td onclick="turizmus('strand');" onmouseleave="keprejt();">Szabad-strand</td>
+          </tr>
+          <tr>
+            <td onclick="turizmus('fazekas');" onmouseleave="keprejt();"></td>Fazekas mesterek</td>
           </tr>
         </tbody>
       </table>
     </div>    
-    <div class="col-lg-6">      
+    <div class="col-lg-9">      
       <div id="turizmusszovegkeret">
         <p>A tó feltöltése után magyar turisták kezdték látogatni a tavat, mert sokkal olcsóbb volt a Balatonnál. A tó környékén megkezdődött a falusi turizmus, a tó körül kempingek, szállodák, strandok épültek. A part mentén hat szabadstrand, Tiszafüreden pedig termálfürdők kínálnak fürdési lehetőséget. Abádszalók környékén a vízi sportok széles skálája gyakorolható, beleértve motoros vízi sportokat is. A horgászat a szabályok betartása mellett engedélyezett.</p>
-        <p>A Tisza-tó vadvízi világa gyalog, kerékpárral, lóháton és csónakkal is bejárható. A Tisza-tavi madárrezervátum védett terület, csak vezetővel látogatható.</p>
+        <p class="text-primary">A Tisza-tó vadvízi világa gyalog, kerékpárral, lóháton és csónakkal is bejárható. A Tisza-tavi madárrezervátum védett terület, csak vezetővel látogatható.</p>
         <p>2012-ben nyílt meg Poroszlón a Tisza-tavi Ökocentrum, mely interaktív módon mutatja be a Tisza-tó és a Tisza-völgy természeti értékeit és élővilágát. A látogatóközpont 2600 m<sup>2</sup>-es főépülete többek között kiállításoknak, rendezvényeknek ad otthont, de kilátó is található itt. A 735 000 liter össztérfogatú akváriumrendszer a legnagyobb édesvízű akvárium Európában. A főépületet 7 hektáros szabadidőpark veszi körül állatbemutatókkal és játszóterekkel; skanzenje a 19. századi életmódot mutatja be. Az ökocentrum kikötőjéből vízitúrák és kishajós kirándulások indulnak.</p>
       </div>
       <div id="turizmuskepkeret">
@@ -148,13 +151,13 @@
   <div class="row">
     <h2 class="display-5" id="novenyvilag">A Tisza-tó növényvilága</h2> 
     <p>A Tisza-tó változatos élőhelyeinek, mozaikosságának köszönhetően igen gazdag élővilág alakult ki. Területén 14 féle növénytársulást tartanak számon, melyek közül a legjellemzőbbek a vízi növénytársulások, a mocsártársulások és az erdőtársulások. A hínártársulások nagy területeket borítanak be a tározó területén. Legjellemzőbb tagja a védett sulyomhínár, aminek előretörése háttérbe szorítja az értékes fehér tündérrózsa állományait. Látványos tagjai a vízi társulásoknak még a sárga virágú vízitök és a tündérfátyol. A rovarfogásra módosult közönséges rence apró, szelepekkel nyitható hólyagokkal ejti csapdába az apró vízi gerincteleneket. A víz alatti hínártársulások fontos tagja a süllőhínár. A mocsaras részeket a nád és a gyékény dominanciája jellemzi. Ezekben a társulásokban megtalálható még a tavi káka, virágkáka, de jelentős növényei közé tartoznak például az ágas békabuzogány, éles sás, réti füzény, vízi peszérce, vízi menta, vízmelléki csukóka, gyilkos csomorika és ebszőlő csucsor. Utóbbi két növényre fokozottan figyeljünk, hiszem mind a két faj halálosan mérgező. Az uralkodó erdőtársulás a puhafa ligeterdő, más néven a fűz-nyár ligeterdő is, amely a társulást alkotó fajokról, vagyis a fehér fűzről, a fehér, szürke és fekete nyárról kapta a nevét. Sajnos nagy számban vannak jelen az úgynevezett invazív fajok, mint például a gyalogakác, zöld juhar vagy az amerikai kőris. Az ártéri erdők aljnövényzete szegényes, de vízállásos években megjelenhetnek bennük a mocsártársulásokra jellemző fajok, többek között például a nyári tőzike, mocsári nőszirom, széleslevelű békakorsó…stb. Hatalmas függönyöket képesek viszont alkotni a különböző szőlőfajok (parti szőlő, ligeti szőlő, vadszőlő).</p>
-    <div class="col-lg-6 py-3">
+    <div class="col-lg-6 py-3 novenykep">
       <img src="kepek/tozike.jpg" alt="Nyári tőzike" title="Nyári tőzike">
-      Nyári tőzike
+      <br> Nyári tőzike
     </div>
-    <div class="col-lg-6 py-3">
+    <div class="col-lg-6 py-3 novenykep">
       <img src="kepek/tunderrozsa.jpg" alt="Fehér tündérrózsa" title="Fehér tündérrózsa">
-      Fehér tündérrózsa
+      <br> Fehér tündérrózsa
     </div>    
   </div>
 
